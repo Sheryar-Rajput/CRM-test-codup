@@ -2,6 +2,28 @@ const  request  = require("request");
 
 exports = {
 
+  
+  /**
+   * Payload passed to the generated webhook URL triggers the `onExternalEvent` callback.
+   * @param {Object} options
+   */
+
+  postData : function (options){
+console.log('function run',options)
+let opt = {
+  method:"GET",
+  url : options.url,
+  headers: {
+    "Content-Type": "application/json"
+  },
+}
+
+request(opt  , function(error , response , body){
+ return response
+})
+// If the setup is successful
+renderData();
+  },
   /**
    * App setup event which is triggered at the time of installation. It can be used to allow/disallow app installation
    *
@@ -30,6 +52,8 @@ exports = {
     // If the setup is successful
     renderData();
 },
+
+
   /**
    * Payload passed to the generated webhook URL triggers the `onExternalEvent` callback.
    * @param {Object} payload

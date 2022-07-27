@@ -2,6 +2,11 @@
   "platform-version": "2.2",
   "product": {
     "freshchat": {
+      "location": {
+        "conversation_user_info": {
+          "url": "index.html",
+          "icon": "icon.svg"
+        }},
       "events": {
         "onAppInstall": {
           "handler": "onAppInstallCallback"
@@ -14,6 +19,12 @@
         },
         "onUserCreate": {
           "handler": "onUserCreateCallback"
+        }
+      }
+      ,
+      "functions" : {
+        "postData" : {
+          "timeout" : 10
         }
       }
     }

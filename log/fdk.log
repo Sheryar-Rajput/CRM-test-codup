@@ -4604,3 +4604,1184 @@ Require stack:
 2022-07-26 18:08:47.839 +0500 [debug] ([34mbeevents.js[0m) [31mCalling event handler with {"categoryName":"appEvent","categoryArgs":{"methodName":"onAppInstall","methodParams":{"timestamp":1496400354326,"account_id":"13","domain":"https://web.freshchat.com","event":"onAppInstall","region":"US","iparams":{}}}}[0m
 2022-07-26 18:08:47.840 +0500 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting D:\CRM SERVERLESS\server\server.js[0m
 2022-07-26 18:08:48.388 +0500 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-07-26 18:44:15.934 +0500 [error] Error: kill ENOSYS
+    at process.kill (internal/process/per_thread.js:210:13)
+    at process.listener (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\npm\node_modules\signal-exit\index.js:95:15)
+    at process.emit (events.js:400:28)
+2022-07-27 15:08:49.811 +0500 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-07-27 15:08:49.815 +0500 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Intern-7/.fdk/configs.json: Cannot find module 'C:\Users\Intern-7/.fdk/configs.json'
+Require stack:
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\configs.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\logger.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\index.js[0m
+2022-07-27 15:08:49.815 +0500 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2022-07-27 15:08:49.815 +0500 [debug] ([34mfile-util.js[0m) [31mError while requiring D:\CRM SERVERLESS/.fdk/configs.json: Cannot find module 'D:\CRM SERVERLESS/.fdk/configs.json'
+Require stack:
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\configs.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\logger.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\index.js[0m
+2022-07-27 15:08:49.816 +0500 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2022-07-27 15:08:49.816 +0500 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{}}"[0m
+2022-07-27 15:08:49.817 +0500 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-07-27 15:08:49.817 +0500 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v14.20.0 on win32[0m
+2022-07-27 15:08:49.817 +0500 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "D:\CRM SERVERLESS/.fdk/store.sqlite"[0m
+2022-07-27 15:08:49.818 +0500 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"run","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-07-27 15:08:49.818 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658813136011}}[0m
+2022-07-27 15:08:49.818 +0500 [debug] ([34mupdater.js[0m) [31mlast check more than 24 hours ago, looking for updates again[0m
+2022-07-27 15:08:50.265 +0500 [debug] ([34mupdater.js[0m) [31mdownloaded update manifest as {"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}}[0m
+2022-07-27 15:08:50.267 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658813136011}}[0m
+2022-07-27 15:08:50.268 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658813136011}}[0m
+2022-07-27 15:08:50.271 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658813136011}}[0m
+2022-07-27 15:08:54.052 +0500 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.2","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"},"onUserCreate":{"handler":"onUserCreateCallback"}}}},"whitelisted-domains":[],"engines":{"node":"14.20.0","fdk":"8.4.0"},"dependencies":{"request":"2.88.2"}}.[0m
+2022-07-27 15:08:54.052 +0500 [debug] ([34mmanifest.js[0m) [31mInferred db,backend as features.[0m
+2022-07-27 15:08:54.082 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658916530269}}[0m
+2022-07-27 15:08:54.548 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658916530269}}[0m
+2022-07-27 15:09:32.065 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658916530269}}[0m
+2022-07-27 15:09:55.554 +0500 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2022-07-27 15:09:55.555 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2022-07-27 15:09:55.556 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2022-07-27 15:09:55.575 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2022-07-27 15:09:55.575 +0500 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if D:\CRM SERVERLESS/config/ exists.[0m
+2022-07-27 15:09:55.575 +0500 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.html[0m
+2022-07-27 15:09:55.575 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2022-07-27 15:09:55.575 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2022-07-27 15:09:55.586 +0500 [debug] ([34mevent-util.js[0m) [31mFound ["onAppInstallCallback","onExternalEventCallback","onAppUninstallCallback","onUserCreateCallback"] as exported functions.[0m
+2022-07-27 15:09:55.586 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2022-07-27 15:09:55.631 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator lint[0m
+2022-07-27 15:09:55.631 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2022-07-27 15:09:55.631 +0500 [debug] ([34mmanifest.js[0m) [31mrunning manifest validation with type run_validation[0m
+2022-07-27 15:09:55.632 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2022-07-27 15:09:55.632 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2022-07-27 15:09:55.632 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2022-07-27 15:09:55.632 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2022-07-27 15:09:55.632 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2022-07-27 15:09:55.635 +0500 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./app,./config,./manifest.json[0m
+2022-07-27 15:09:55.641 +0500 [debug] ([34minstall-util.js[0m) [31mdependency installer called with {"request":"2.88.2"}[0m
+2022-07-27 15:09:55.787 +0500 [debug] ([34minstall-util.js[0m) [31mPreparing to install the following dependencies request@2.88.2[0m
+2022-07-27 15:09:55.788 +0500 [info] Installing dependencies...
+2022-07-27 15:10:18.835 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 15:10:18.836 +0500 [debug] ([34mcustom-objects.js[0m) [31mto force or not? false[0m
+2022-07-27 15:10:18.836 +0500 [debug] ([34mcustom-objects.js[0m) [31mbeginning to re-sync db[0m
+2022-07-27 15:10:21.364 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\bigint-pivot.js"[0m
+2022-07-27 15:10:21.400 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\entity-field-choice.js"[0m
+2022-07-27 15:10:21.412 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\entity-field.js"[0m
+2022-07-27 15:10:21.422 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\entity.js"[0m
+2022-07-27 15:10:21.441 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\record.js"[0m
+2022-07-27 15:10:21.454 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\string-pivot.js"[0m
+2022-07-27 15:10:21.487 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 15:10:21.488 +0500 [debug] ([34mcustom-objects.js[0m) [31mupdated local store with latest entity hash[0m
+2022-07-27 15:10:21.489 +0500 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshchat account URL to start testing    
+e.g. https://web.freshchat.com/a/230117337757345/inbox/3/0/conversation/233020826993979?dev=true    
+Quit the server with Control-C.
+2022-07-27 15:10:21.490 +0500 [info] 
+To simulate product, app setup, and external events, visit - http://localhost:10001/web/test
+2022-07-27 15:10:21.490 +0500 [info] Populating test data with events found in the app
+2022-07-27 15:10:21.491 +0500 [info] To test the installation page, visit - http://localhost:10001/custom_configs
+2022-07-27 15:13:39.371 +0500 [debug] ([34mmanifest.js[0m) [31mError while parsing manifest file Unexpected token } in JSON at position 577[0m
+2022-07-27 15:28:32.563 +0500 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-07-27 15:28:32.564 +0500 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Intern-7/.fdk/configs.json: Cannot find module 'C:\Users\Intern-7/.fdk/configs.json'
+Require stack:
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\configs.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\logger.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\index.js[0m
+2022-07-27 15:28:32.565 +0500 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2022-07-27 15:28:32.565 +0500 [debug] ([34mfile-util.js[0m) [31mError while requiring D:\CRM SERVERLESS/.fdk/configs.json: Cannot find module 'D:\CRM SERVERLESS/.fdk/configs.json'
+Require stack:
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\configs.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\logger.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\index.js[0m
+2022-07-27 15:28:32.565 +0500 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2022-07-27 15:28:32.565 +0500 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{}}"[0m
+2022-07-27 15:28:32.565 +0500 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-07-27 15:28:32.566 +0500 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v14.20.0 on win32[0m
+2022-07-27 15:28:32.566 +0500 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "D:\CRM SERVERLESS/.fdk/store.sqlite"[0m
+2022-07-27 15:28:32.566 +0500 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"run","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-07-27 15:28:32.566 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658916530269}}[0m
+2022-07-27 15:28:32.566 +0500 [debug] ([34mupdater.js[0m) [31mlast check less than 24 hours ago, not looking for updates[0m
+2022-07-27 15:28:32.862 +0500 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.2","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"},"onUserCreate":{"handler":"onUserCreateCallback"}}}},"whitelisted-domains":[],"engines":{"node":"14.20.0","fdk":"8.4.0"},"dependencies":{"request":"2.88.2"},"function":{"postData":{"timeout":10}}}.[0m
+2022-07-27 15:28:32.863 +0500 [debug] ([34mmanifest.js[0m) [31mInferred db,backend as features.[0m
+2022-07-27 15:28:32.865 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658916530269}}[0m
+2022-07-27 15:28:32.893 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658916530269}}[0m
+2022-07-27 15:28:34.380 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658916530269}}[0m
+2022-07-27 15:28:35.479 +0500 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2022-07-27 15:28:35.480 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2022-07-27 15:28:35.481 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2022-07-27 15:28:35.481 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2022-07-27 15:28:35.482 +0500 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if D:\CRM SERVERLESS/config/ exists.[0m
+2022-07-27 15:28:35.482 +0500 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.html[0m
+2022-07-27 15:28:35.482 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2022-07-27 15:28:35.482 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2022-07-27 15:28:35.498 +0500 [debug] ([34mevent-util.js[0m) [31mFound ["postData","onAppInstallCallback","onExternalEventCallback","onAppUninstallCallback","onUserCreateCallback"] as exported functions.[0m
+2022-07-27 15:28:35.498 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2022-07-27 15:28:35.516 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator lint[0m
+2022-07-27 15:28:35.517 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2022-07-27 15:28:35.517 +0500 [debug] ([34mmanifest.js[0m) [31mrunning manifest validation with type run_validation[0m
+2022-07-27 15:28:35.517 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2022-07-27 15:28:35.517 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2022-07-27 15:28:35.518 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2022-07-27 15:28:35.518 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2022-07-27 15:28:35.518 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2022-07-27 15:28:35.522 +0500 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./app,./config,./manifest.json[0m
+2022-07-27 15:28:35.528 +0500 [debug] ([34minstall-util.js[0m) [31mdependency installer called with {"request":"2.88.2"}[0m
+2022-07-27 15:28:35.558 +0500 [debug] ([34minstall-util.js[0m) [31mPreparing to install the following dependencies request@2.88.2[0m
+2022-07-27 15:28:35.559 +0500 [info] Installing dependencies...
+2022-07-27 15:28:39.929 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 15:28:39.929 +0500 [debug] ([34mcustom-objects.js[0m) [31mto force or not? false[0m
+2022-07-27 15:28:39.929 +0500 [debug] ([34mcustom-objects.js[0m) [31mbeginning to re-sync db[0m
+2022-07-27 15:28:41.849 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\bigint-pivot.js"[0m
+2022-07-27 15:28:41.854 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\entity-field-choice.js"[0m
+2022-07-27 15:28:41.856 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\entity-field.js"[0m
+2022-07-27 15:28:41.859 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\entity.js"[0m
+2022-07-27 15:28:41.861 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\record.js"[0m
+2022-07-27 15:28:41.863 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\string-pivot.js"[0m
+2022-07-27 15:28:41.886 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 15:28:41.886 +0500 [debug] ([34mcustom-objects.js[0m) [31mupdated local store with latest entity hash[0m
+2022-07-27 15:28:41.887 +0500 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshchat account URL to start testing    
+e.g. https://web.freshchat.com/a/230117337757345/inbox/3/0/conversation/233020826993979?dev=true    
+Quit the server with Control-C.
+2022-07-27 15:28:41.887 +0500 [info] 
+To simulate product, app setup, and external events, visit - http://localhost:10001/web/test
+2022-07-27 15:28:41.888 +0500 [info] Populating test data with events found in the app
+2022-07-27 15:28:41.889 +0500 [info] To test the installation page, visit - http://localhost:10001/custom_configs
+2022-07-27 15:28:48.241 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 15:28:48.243 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM SERVERLESS","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"},"onUserCreate":{"handler":"onUserCreateCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[]}[0m
+2022-07-27 15:28:48.326 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 15:39:18.560 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 15:39:24.548 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 15:39:29.351 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 15:39:35.680 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 15:39:40.149 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 15:39:53.905 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"config\\iparams.html"}" to all listeners.[0m
+2022-07-27 15:40:02.642 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 15:40:03.635 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 15:40:06.241 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 15:40:07.443 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 15:40:11.044 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 15:40:13.562 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 15:40:19.339 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 15:40:23.587 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 15:40:30.338 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 15:40:30.447 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 15:40:34.616 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 15:40:47.476 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 15:41:00.868 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 15:41:18.238 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 15:41:22.624 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 15:41:27.108 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 15:41:32.443 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 15:41:36.265 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 15:41:40.630 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 15:41:47.042 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 15:41:49.876 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 15:41:55.561 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 15:41:57.420 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 15:42:09.596 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 15:42:10.793 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 15:42:12.755 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 15:42:14.281 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 15:42:19.301 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 15:42:22.676 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 15:42:24.321 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 15:42:27.051 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 15:42:28.030 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 15:42:29.119 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 15:42:32.823 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 15:42:35.535 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 15:42:39.356 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 15:42:43.719 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 15:42:48.305 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 15:43:59.892 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 15:44:00.981 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 15:45:15.964 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\icon.svg"}" to all listeners.[0m
+2022-07-27 15:46:18.846 +0500 [debug] ([34mmanifest.js[0m) [31mError while parsing manifest file Unexpected string in JSON at position 211[0m
+2022-07-27 15:50:39.131 +0500 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-07-27 15:50:39.133 +0500 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Intern-7/.fdk/configs.json: Cannot find module 'C:\Users\Intern-7/.fdk/configs.json'
+Require stack:
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\configs.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\logger.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\index.js[0m
+2022-07-27 15:50:39.133 +0500 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2022-07-27 15:50:39.134 +0500 [debug] ([34mfile-util.js[0m) [31mError while requiring D:\CRM SERVERLESS/.fdk/configs.json: Cannot find module 'D:\CRM SERVERLESS/.fdk/configs.json'
+Require stack:
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\configs.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\logger.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\index.js[0m
+2022-07-27 15:50:39.134 +0500 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2022-07-27 15:50:39.134 +0500 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{}}"[0m
+2022-07-27 15:50:39.134 +0500 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-07-27 15:50:39.134 +0500 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v14.20.0 on win32[0m
+2022-07-27 15:50:39.134 +0500 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "D:\CRM SERVERLESS/.fdk/store.sqlite"[0m
+2022-07-27 15:50:39.134 +0500 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"run","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-07-27 15:50:39.135 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658916530269}}[0m
+2022-07-27 15:50:39.135 +0500 [debug] ([34mupdater.js[0m) [31mlast check less than 24 hours ago, not looking for updates[0m
+2022-07-27 15:50:39.460 +0500 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.2","product":{"freshchat":{"location":{"conversation_user_info":{"url":"index.html","icon":"icon.svg"},"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"},"onUserCreate":{"handler":"onUserCreateCallback"}}}},"whitelisted-domains":[],"engines":{"node":"14.20.0","fdk":"8.4.0"},"dependencies":{"request":"2.88.2"},"function":{"postData":{"timeout":10}}}}.[0m
+2022-07-27 15:50:39.461 +0500 [debug] ([34mmanifest.js[0m) [31mInferred db,backend,omni as features.[0m
+2022-07-27 15:50:39.464 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658916530269}}[0m
+2022-07-27 15:50:39.491 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658916530269}}[0m
+2022-07-27 15:50:40.833 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658916530269}}[0m
+2022-07-27 15:50:41.921 +0500 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2022-07-27 15:50:41.922 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2022-07-27 15:50:41.922 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2022-07-27 15:50:41.923 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2022-07-27 15:50:41.924 +0500 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if D:\CRM SERVERLESS/config/ exists.[0m
+2022-07-27 15:50:41.924 +0500 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.html[0m
+2022-07-27 15:50:41.924 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2022-07-27 15:50:41.924 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2022-07-27 15:50:41.935 +0500 [debug] ([34mevent-util.js[0m) [31mFound ["postData","onAppInstallCallback","onExternalEventCallback","onAppUninstallCallback","onUserCreateCallback"] as exported functions.[0m
+2022-07-27 15:50:41.935 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2022-07-27 15:50:41.952 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator lint[0m
+2022-07-27 15:50:41.952 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2022-07-27 15:50:41.952 +0500 [debug] ([34mmanifest.js[0m) [31mrunning manifest validation with type run_validation[0m
+2022-07-27 15:50:41.952 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2022-07-27 15:50:41.952 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2022-07-27 15:50:41.952 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2022-07-27 15:50:41.953 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2022-07-27 15:50:41.953 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2022-07-27 15:50:41.954 +0500 [warn] [33m[WARN][0m App was developed in Node.js runtime 10 or below, and is currently being executed in v14.20.0
+2022-07-27 15:51:14.733 +0500 [error] The local server could not be started due to the following issue(s):
+2022-07-27 15:51:17.690 +0500 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-07-27 15:51:17.692 +0500 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Intern-7/.fdk/configs.json: Cannot find module 'C:\Users\Intern-7/.fdk/configs.json'
+Require stack:
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\configs.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\logger.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\index.js[0m
+2022-07-27 15:51:17.692 +0500 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2022-07-27 15:51:17.692 +0500 [debug] ([34mfile-util.js[0m) [31mError while requiring D:\CRM SERVERLESS/.fdk/configs.json: Cannot find module 'D:\CRM SERVERLESS/.fdk/configs.json'
+Require stack:
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\configs.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\logger.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\index.js[0m
+2022-07-27 15:51:17.692 +0500 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2022-07-27 15:51:17.693 +0500 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{}}"[0m
+2022-07-27 15:51:17.693 +0500 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-07-27 15:51:17.693 +0500 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v14.20.0 on win32[0m
+2022-07-27 15:51:17.693 +0500 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "D:\CRM SERVERLESS/.fdk/store.sqlite"[0m
+2022-07-27 15:51:17.693 +0500 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"run","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-07-27 15:51:17.693 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658916530269}}[0m
+2022-07-27 15:51:17.693 +0500 [debug] ([34mupdater.js[0m) [31mlast check less than 24 hours ago, not looking for updates[0m
+2022-07-27 15:51:17.971 +0500 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.2","product":{"freshchat":{"location":{"conversation_user_info":{"url":"index.html","icon":"icon.svg"},"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"},"onUserCreate":{"handler":"onUserCreateCallback"}}}},"whitelisted-domains":[],"engines":{"node":"14.20.0","fdk":"8.4.0"},"dependencies":{"request":"2.88.2"},"function":{"postData":{"timeout":10}}}}.[0m
+2022-07-27 15:51:17.972 +0500 [debug] ([34mmanifest.js[0m) [31mInferred db,backend,omni as features.[0m
+2022-07-27 15:51:17.974 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658916530269}}[0m
+2022-07-27 15:51:17.998 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658916530269}}[0m
+2022-07-27 15:51:19.309 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658916530269}}[0m
+2022-07-27 15:51:20.330 +0500 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2022-07-27 15:51:20.330 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2022-07-27 15:51:20.331 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2022-07-27 15:51:20.332 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2022-07-27 15:51:20.332 +0500 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if D:\CRM SERVERLESS/config/ exists.[0m
+2022-07-27 15:51:20.332 +0500 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.html[0m
+2022-07-27 15:51:20.332 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2022-07-27 15:51:20.332 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2022-07-27 15:51:20.343 +0500 [debug] ([34mevent-util.js[0m) [31mFound ["postData","onAppInstallCallback","onExternalEventCallback","onAppUninstallCallback","onUserCreateCallback"] as exported functions.[0m
+2022-07-27 15:51:20.343 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2022-07-27 15:51:20.359 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator lint[0m
+2022-07-27 15:51:20.359 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2022-07-27 15:51:20.359 +0500 [debug] ([34mmanifest.js[0m) [31mrunning manifest validation with type run_validation[0m
+2022-07-27 15:51:20.359 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2022-07-27 15:51:20.359 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2022-07-27 15:51:20.359 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2022-07-27 15:51:20.360 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2022-07-27 15:51:20.360 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2022-07-27 15:51:20.363 +0500 [warn] [33m[WARN][0m App was developed in Node.js runtime 10 or below, and is currently being executed in v14.20.0
+2022-07-27 15:51:23.307 +0500 [debug] ([34mversion-check.js[0m) [31mDeleting coverage folder[0m
+2022-07-27 15:52:59.477 +0500 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-07-27 15:52:59.478 +0500 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Intern-7/.fdk/configs.json: Cannot find module 'C:\Users\Intern-7/.fdk/configs.json'
+Require stack:
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\configs.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\logger.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\index.js[0m
+2022-07-27 15:52:59.479 +0500 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2022-07-27 15:52:59.479 +0500 [debug] ([34mfile-util.js[0m) [31mError while requiring D:\CRM SERVERLESS/.fdk/configs.json: Cannot find module 'D:\CRM SERVERLESS/.fdk/configs.json'
+Require stack:
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\configs.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\logger.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\index.js[0m
+2022-07-27 15:52:59.479 +0500 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2022-07-27 15:52:59.479 +0500 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{}}"[0m
+2022-07-27 15:52:59.479 +0500 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-07-27 15:52:59.480 +0500 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v14.20.0 on win32[0m
+2022-07-27 15:52:59.480 +0500 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "D:\CRM SERVERLESS/.fdk/store.sqlite"[0m
+2022-07-27 15:52:59.480 +0500 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"run","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-07-27 15:52:59.480 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658916530269}}[0m
+2022-07-27 15:52:59.480 +0500 [debug] ([34mupdater.js[0m) [31mlast check less than 24 hours ago, not looking for updates[0m
+2022-07-27 15:52:59.747 +0500 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.2","product":{"freshchat":{"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"},"onUserCreate":{"handler":"onUserCreateCallback"}}}},"whitelisted-domains":[],"engines":{"node":"14.20.0","fdk":"8.4.0"},"dependencies":{"request":"2.88.2"},"function":{"postData":{"timeout":10}}}.[0m
+2022-07-27 15:52:59.747 +0500 [debug] ([34mmanifest.js[0m) [31mInferred db,backend as features.[0m
+2022-07-27 15:52:59.750 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658916530269}}[0m
+2022-07-27 15:52:59.775 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658916530269}}[0m
+2022-07-27 15:53:01.120 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658916530269}}[0m
+2022-07-27 15:53:02.163 +0500 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2022-07-27 15:53:02.164 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2022-07-27 15:53:02.164 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2022-07-27 15:53:02.165 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2022-07-27 15:53:02.165 +0500 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if D:\CRM SERVERLESS/config/ exists.[0m
+2022-07-27 15:53:02.166 +0500 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.html[0m
+2022-07-27 15:53:02.166 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2022-07-27 15:53:02.166 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2022-07-27 15:53:02.176 +0500 [debug] ([34mevent-util.js[0m) [31mFound ["postData","onAppInstallCallback","onExternalEventCallback","onAppUninstallCallback","onUserCreateCallback"] as exported functions.[0m
+2022-07-27 15:53:02.177 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2022-07-27 15:53:02.194 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator lint[0m
+2022-07-27 15:53:02.194 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2022-07-27 15:53:02.194 +0500 [debug] ([34mmanifest.js[0m) [31mrunning manifest validation with type run_validation[0m
+2022-07-27 15:53:02.194 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2022-07-27 15:53:02.194 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2022-07-27 15:53:02.194 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2022-07-27 15:53:02.195 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2022-07-27 15:53:02.195 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2022-07-27 15:53:02.198 +0500 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./app,./config,./manifest.json[0m
+2022-07-27 15:53:02.204 +0500 [debug] ([34minstall-util.js[0m) [31mdependency installer called with {"request":"2.88.2"}[0m
+2022-07-27 15:53:02.228 +0500 [debug] ([34minstall-util.js[0m) [31mPreparing to install the following dependencies request@2.88.2[0m
+2022-07-27 15:53:02.229 +0500 [info] Installing dependencies...
+2022-07-27 15:53:09.900 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 15:53:09.900 +0500 [debug] ([34mcustom-objects.js[0m) [31mto force or not? false[0m
+2022-07-27 15:53:09.900 +0500 [debug] ([34mcustom-objects.js[0m) [31mbeginning to re-sync db[0m
+2022-07-27 15:53:12.057 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\bigint-pivot.js"[0m
+2022-07-27 15:53:12.060 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\entity-field-choice.js"[0m
+2022-07-27 15:53:12.062 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\entity-field.js"[0m
+2022-07-27 15:53:12.063 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\entity.js"[0m
+2022-07-27 15:53:12.065 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\record.js"[0m
+2022-07-27 15:53:12.067 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\string-pivot.js"[0m
+2022-07-27 15:53:12.094 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 15:53:12.095 +0500 [debug] ([34mcustom-objects.js[0m) [31mupdated local store with latest entity hash[0m
+2022-07-27 15:53:12.096 +0500 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshchat account URL to start testing    
+e.g. https://web.freshchat.com/a/230117337757345/inbox/3/0/conversation/233020826993979?dev=true    
+Quit the server with Control-C.
+2022-07-27 15:53:12.097 +0500 [info] 
+To simulate product, app setup, and external events, visit - http://localhost:10001/web/test
+2022-07-27 15:53:12.097 +0500 [info] Populating test data with events found in the app
+2022-07-27 15:53:12.098 +0500 [info] To test the installation page, visit - http://localhost:10001/custom_configs
+2022-07-27 15:53:52.491 +0500 [debug] ([34mmanifest.js[0m) [31mError while parsing manifest file Unexpected string in JSON at position 252[0m
+2022-07-27 15:56:02.119 +0500 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-07-27 15:56:02.120 +0500 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Intern-7/.fdk/configs.json: Cannot find module 'C:\Users\Intern-7/.fdk/configs.json'
+Require stack:
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\configs.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\logger.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\index.js[0m
+2022-07-27 15:56:02.121 +0500 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2022-07-27 15:56:02.121 +0500 [debug] ([34mfile-util.js[0m) [31mError while requiring D:\CRM SERVERLESS/.fdk/configs.json: Cannot find module 'D:\CRM SERVERLESS/.fdk/configs.json'
+Require stack:
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\configs.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\logger.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\index.js[0m
+2022-07-27 15:56:02.121 +0500 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2022-07-27 15:56:02.121 +0500 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{}}"[0m
+2022-07-27 15:56:02.121 +0500 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-07-27 15:56:02.122 +0500 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v14.20.0 on win32[0m
+2022-07-27 15:56:02.122 +0500 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "D:\CRM SERVERLESS/.fdk/store.sqlite"[0m
+2022-07-27 15:56:02.122 +0500 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"run","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-07-27 15:56:02.122 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658916530269}}[0m
+2022-07-27 15:56:02.122 +0500 [debug] ([34mupdater.js[0m) [31mlast check less than 24 hours ago, not looking for updates[0m
+2022-07-27 15:56:02.392 +0500 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.2","product":{"freshchat":{"location":{"conversation_user_info":{"url":"index.html","icon":"icon.svg"}},"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"},"onUserCreate":{"handler":"onUserCreateCallback"}}}},"whitelisted-domains":[],"engines":{"node":"14.20.0","fdk":"8.4.0"},"dependencies":{"request":"2.88.2"},"function":{"postData":{"timeout":10}}}.[0m
+2022-07-27 15:56:02.392 +0500 [debug] ([34mmanifest.js[0m) [31mInferred db,backend as features.[0m
+2022-07-27 15:56:02.395 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658916530269}}[0m
+2022-07-27 15:56:02.419 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658916530269}}[0m
+2022-07-27 15:56:03.753 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658916530269}}[0m
+2022-07-27 15:56:04.788 +0500 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2022-07-27 15:56:04.789 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2022-07-27 15:56:04.789 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2022-07-27 15:56:04.790 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2022-07-27 15:56:04.790 +0500 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if D:\CRM SERVERLESS/config/ exists.[0m
+2022-07-27 15:56:04.791 +0500 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.html[0m
+2022-07-27 15:56:04.791 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2022-07-27 15:56:04.791 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2022-07-27 15:56:04.801 +0500 [debug] ([34mevent-util.js[0m) [31mFound ["postData","onAppInstallCallback","onExternalEventCallback","onAppUninstallCallback","onUserCreateCallback"] as exported functions.[0m
+2022-07-27 15:56:04.802 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2022-07-27 15:56:04.817 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator lint[0m
+2022-07-27 15:56:04.817 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2022-07-27 15:56:04.818 +0500 [debug] ([34mmanifest.js[0m) [31mrunning manifest validation with type run_validation[0m
+2022-07-27 15:56:04.818 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2022-07-27 15:56:04.818 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2022-07-27 15:56:04.818 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2022-07-27 15:56:04.818 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2022-07-27 15:56:04.818 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2022-07-27 15:56:04.841 +0500 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./app,./config,./manifest.json[0m
+2022-07-27 15:56:04.846 +0500 [debug] ([34minstall-util.js[0m) [31mdependency installer called with {"request":"2.88.2"}[0m
+2022-07-27 15:56:04.873 +0500 [debug] ([34minstall-util.js[0m) [31mPreparing to install the following dependencies request@2.88.2[0m
+2022-07-27 15:56:04.874 +0500 [info] Installing dependencies...
+2022-07-27 15:56:08.340 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 15:56:08.340 +0500 [debug] ([34mcustom-objects.js[0m) [31mto force or not? false[0m
+2022-07-27 15:56:08.340 +0500 [debug] ([34mcustom-objects.js[0m) [31mbeginning to re-sync db[0m
+2022-07-27 15:56:10.241 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\bigint-pivot.js"[0m
+2022-07-27 15:56:10.245 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\entity-field-choice.js"[0m
+2022-07-27 15:56:10.248 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\entity-field.js"[0m
+2022-07-27 15:56:10.250 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\entity.js"[0m
+2022-07-27 15:56:10.253 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\record.js"[0m
+2022-07-27 15:56:10.256 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\string-pivot.js"[0m
+2022-07-27 15:56:10.294 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 15:56:10.295 +0500 [debug] ([34mcustom-objects.js[0m) [31mupdated local store with latest entity hash[0m
+2022-07-27 15:56:10.295 +0500 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshchat account URL to start testing    
+e.g. https://web.freshchat.com/a/230117337757345/inbox/3/0/conversation/233020826993979?dev=true    
+Quit the server with Control-C.
+2022-07-27 15:56:10.296 +0500 [info] 
+To simulate product, app setup, and external events, visit - http://localhost:10001/web/test
+2022-07-27 15:56:10.296 +0500 [info] Populating test data with events found in the app
+2022-07-27 15:56:10.297 +0500 [info] To test the installation page, visit - http://localhost:10001/custom_configs
+2022-07-27 15:56:43.082 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 15:56:43.084 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 15:56:43.085 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM SERVERLESS","product":{"freshchat":{"location":{"conversation_user_info":{"url":"agent/index.html","icon":"agent/icon.svg"}},"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"},"onUserCreate":{"handler":"onUserCreateCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"CRM SERVERLESS","placeholders":{"conversation_user_info":{"url":"http://localhost:10001/iframe/index.html","icon":"icon.svg"}}}]}[0m
+2022-07-27 15:56:43.474 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:21:37.177 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:21:37.187 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:23:38.959 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:23:38.969 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:23:39.180 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:23:39.189 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:24:06.731 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:24:06.738 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:24:07.386 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:24:07.394 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:24:09.680 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:24:09.687 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:24:27.804 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:24:27.809 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:24:29.557 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:24:29.567 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:24:35.967 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:24:35.973 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:24:40.792 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:24:40.797 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:24:47.829 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:24:47.839 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:24:49.900 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:24:49.906 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:24:59.370 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:24:59.377 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:25:03.622 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:25:03.626 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:25:05.912 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:25:05.916 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:26:01.384 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:26:01.393 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:26:11.408 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:26:11.416 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:26:36.777 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:26:36.789 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:26:37.215 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:26:37.220 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:27:11.429 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:27:11.431 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:27:11.431 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM SERVERLESS","product":{"freshchat":{"location":{"conversation_user_info":{"url":"agent/index.html","icon":"agent/icon.svg"}},"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"},"onUserCreate":{"handler":"onUserCreateCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"CRM SERVERLESS","placeholders":{"conversation_user_info":{"url":"http://localhost:10001/iframe/index.html","icon":"icon.svg"}}}]}[0m
+2022-07-27 16:27:12.246 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:27:15.955 +0500 [debug] ([34mdata-pipe.js[0m) [31mreceived call for route "smi" with action "invoke" and body {"action":"invoke","methodName":"postData","methodParams":{"url":"https://www.google.com"},"data":{}}[0m
+2022-07-27 16:27:15.957 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:27:16.100 +0500 [debug] ([34merror.js[0m) [31muncaught exception while handling web request "FunctionNotFoundError: Requested function 'postData' not found or registered
+    at getFunctionDetails (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\api\smi.js:30:11)
+    at Object.invoke (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\api\smi.js:45:51)
+    at dpRouterExec (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\routes\data-pipe.js:39:32)
+    at asyncify (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\helper-util.js:133:28)
+    at Layer.handle [as handle_request] (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\middlewares\validator.js:16:32
+    at asyncify (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\helper-util.js:133:28)
+    at C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\routes\data-pipe.js:52:82
+    at Layer.handle [as handle_request] (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express\lib\router\layer.js:95:5)"[0m
+2022-07-27 16:27:36.163 +0500 [debug] ([34mdata-pipe.js[0m) [31mreceived call for route "smi" with action "invoke" and body {"action":"invoke","methodName":"postData","methodParams":{"url":"https://www.google.com"},"data":{}}[0m
+2022-07-27 16:27:36.164 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:27:36.165 +0500 [debug] ([34merror.js[0m) [31muncaught exception while handling web request "FunctionNotFoundError: Requested function 'postData' not found or registered
+    at getFunctionDetails (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\api\smi.js:30:11)
+    at Object.invoke (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\api\smi.js:45:51)
+    at dpRouterExec (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\routes\data-pipe.js:39:32)
+    at asyncify (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\helper-util.js:133:28)
+    at Layer.handle [as handle_request] (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\middlewares\validator.js:16:32
+    at asyncify (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\helper-util.js:133:28)
+    at C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\routes\data-pipe.js:52:82
+    at Layer.handle [as handle_request] (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express\lib\router\layer.js:95:5)"[0m
+2022-07-27 16:30:11.473 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:30:11.482 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:30:22.427 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:30:22.433 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:30:23.194 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:30:23.200 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:30:25.494 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:30:25.500 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:30:26.803 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:30:26.812 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:30:34.675 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:30:34.683 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:30:35.335 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:30:35.343 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:30:47.000 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:30:47.000 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:30:47.000 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM SERVERLESS","product":{"freshchat":{"location":{"conversation_user_info":{"url":"agent/index.html","icon":"agent/icon.svg"}},"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"},"onUserCreate":{"handler":"onUserCreateCallback"}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"CRM SERVERLESS","placeholders":{"conversation_user_info":{"url":"http://localhost:10001/iframe/index.html","icon":"icon.svg"}}}]}[0m
+2022-07-27 16:30:47.817 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:30:57.285 +0500 [debug] ([34mdata-pipe.js[0m) [31mreceived call for route "smi" with action "invoke" and body {"action":"invoke","methodName":"postData","methodParams":{"url":"https://www.google.com"},"data":{}}[0m
+2022-07-27 16:30:57.286 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:30:57.287 +0500 [debug] ([34merror.js[0m) [31muncaught exception while handling web request "FunctionNotFoundError: Requested function 'postData' not found or registered
+    at getFunctionDetails (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\api\smi.js:30:11)
+    at Object.invoke (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\api\smi.js:45:51)
+    at dpRouterExec (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\routes\data-pipe.js:39:32)
+    at asyncify (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\helper-util.js:133:28)
+    at Layer.handle [as handle_request] (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\middlewares\validator.js:16:32
+    at asyncify (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\helper-util.js:133:28)
+    at C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\routes\data-pipe.js:52:82
+    at Layer.handle [as handle_request] (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\node_modules\express\lib\router\layer.js:95:5)"[0m
+2022-07-27 16:31:21.955 +0500 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.2","product":{"freshchat":{"location":{"conversation_user_info":{"url":"index.html","icon":"icon.svg"}},"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"},"onUserCreate":{"handler":"onUserCreateCallback"}}}},"whitelisted-domains":[],"engines":{"node":"14.20.0","fdk":"8.4.0"},"dependencies":{"request":"2.88.2"},"functions":{"postData":{"timeout":10}}}.[0m
+2022-07-27 16:31:21.957 +0500 [debug] ([34mmanifest.js[0m) [31mInferred db,backend as features.[0m
+2022-07-27 16:31:21.958 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"manifest.json"}" to all listeners.[0m
+2022-07-27 16:31:21.965 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:31:30.039 +0500 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.2","product":{"freshchat":{"location":{"conversation_user_info":{"url":"index.html","icon":"icon.svg"}},"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"},"onUserCreate":{"handler":"onUserCreateCallback"}}}},"whitelisted-domains":[],"engines":{"node":"14.20.0","fdk":"8.4.0"},"dependencies":{"request":"2.88.2"}}.[0m
+2022-07-27 16:31:30.040 +0500 [debug] ([34mmanifest.js[0m) [31mInferred db,backend as features.[0m
+2022-07-27 16:31:30.041 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"manifest.json"}" to all listeners.[0m
+2022-07-27 16:31:30.048 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:31:41.407 +0500 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.2","product":{"freshchat":{"location":{"conversation_user_info":{"url":"index.html","icon":"icon.svg"}},"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"},"onUserCreate":{"handler":"onUserCreateCallback"}},"functions":{"postData":{"timeout":10}}}},"whitelisted-domains":[],"engines":{"node":"14.20.0","fdk":"8.4.0"},"dependencies":{"request":"2.88.2"}}.[0m
+2022-07-27 16:31:41.408 +0500 [debug] ([34mmanifest.js[0m) [31mInferred db,backend as features.[0m
+2022-07-27 16:31:41.409 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"manifest.json"}" to all listeners.[0m
+2022-07-27 16:31:41.414 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:31:41.736 +0500 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.2","product":{"freshchat":{"location":{"conversation_user_info":{"url":"index.html","icon":"icon.svg"}},"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"},"onUserCreate":{"handler":"onUserCreateCallback"}},"functions":{"postData":{"timeout":10}}}},"whitelisted-domains":[],"engines":{"node":"14.20.0","fdk":"8.4.0"},"dependencies":{"request":"2.88.2"}}.[0m
+2022-07-27 16:31:41.737 +0500 [debug] ([34mmanifest.js[0m) [31mInferred db,backend as features.[0m
+2022-07-27 16:31:41.737 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"manifest.json"}" to all listeners.[0m
+2022-07-27 16:31:41.744 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:32:07.949 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:32:07.950 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:32:07.950 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM SERVERLESS","product":{"freshchat":{"location":{"conversation_user_info":{"url":"agent/index.html","icon":"agent/icon.svg"}},"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"},"onUserCreate":{"handler":"onUserCreateCallback"}},"functions":{"postData":{"timeout":10}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"CRM SERVERLESS","placeholders":{"conversation_user_info":{"url":"http://localhost:10001/iframe/index.html","icon":"icon.svg"}}}]}[0m
+2022-07-27 16:32:08.785 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:32:12.307 +0500 [debug] ([34mdata-pipe.js[0m) [31mreceived call for route "smi" with action "invoke" and body {"action":"invoke","methodName":"postData","methodParams":{"url":"https://www.google.com"},"data":{}}[0m
+2022-07-27 16:32:12.308 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:32:12.308 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:32:12.309 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:32:12.310 +0500 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting D:\CRM SERVERLESS\server\server.js[0m
+2022-07-27 16:32:14.171 +0500 [error] server.js:444
+    request(opt, function (error, response, body) {
+            ^
+
+ReferenceError: opt is not defined
+    at Object.postData (server.js:444:13)
+    at server.js:2:30
+    at server.js:4:7
+    at Script.runInContext (vm.js:144:12)
+    at Request.sandboxExecutor (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\event_handler\framework.js:225:25)
+    at Request.execute (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\event_handler\framework.js:219:10)
+    at Request.execute (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\event_handler\framework.js:272:13)
+    at handler (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\event_handler\framework.js:362:11)
+    at Object.invoke (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\api\smi.js:66:5)
+    at dpRouterExec (C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\routes\data-pipe.js:39:32)
+2022-07-27 16:32:14.229 +0500 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-07-27 16:33:04.110 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:33:04.112 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:33:04.112 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM SERVERLESS","product":{"freshchat":{"location":{"conversation_user_info":{"url":"agent/index.html","icon":"agent/icon.svg"}},"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"},"onUserCreate":{"handler":"onUserCreateCallback"}},"functions":{"postData":{"timeout":10}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"CRM SERVERLESS","placeholders":{"conversation_user_info":{"url":"http://localhost:10001/iframe/index.html","icon":"icon.svg"}}}]}[0m
+2022-07-27 16:33:04.519 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:33:07.579 +0500 [debug] ([34mdata-pipe.js[0m) [31mreceived call for route "smi" with action "invoke" and body {"action":"invoke","methodName":"postData","methodParams":{"url":"https://www.google.com"},"data":{}}[0m
+2022-07-27 16:33:07.580 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:33:07.580 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:33:07.581 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:33:07.582 +0500 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting D:\CRM SERVERLESS\server\server.js[0m
+2022-07-27 16:33:08.139 +0500 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-07-27 16:33:08.750 +0500 [error] SyntaxError: Unexpected token < in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Request._callback (server.js:450:50)
+    at Request.self.callback (D:\CRM SERVERLESS\server\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:400:28)
+    at Request.<anonymous> (D:\CRM SERVERLESS\server\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:400:28)
+    at IncomingMessage.<anonymous> (D:\CRM SERVERLESS\server\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:519:28)
+    at IncomingMessage.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+2022-07-27 16:34:26.791 +0500 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-07-27 16:34:26.796 +0500 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Intern-7/.fdk/configs.json: Cannot find module 'C:\Users\Intern-7/.fdk/configs.json'
+Require stack:
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\configs.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\logger.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\index.js[0m
+2022-07-27 16:34:26.796 +0500 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2022-07-27 16:34:26.796 +0500 [debug] ([34mfile-util.js[0m) [31mError while requiring D:\CRM SERVERLESS/.fdk/configs.json: Cannot find module 'D:\CRM SERVERLESS/.fdk/configs.json'
+Require stack:
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\configs.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\logger.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\index.js[0m
+2022-07-27 16:34:26.797 +0500 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2022-07-27 16:34:26.797 +0500 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{}}"[0m
+2022-07-27 16:34:26.798 +0500 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-07-27 16:34:26.798 +0500 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v14.20.0 on win32[0m
+2022-07-27 16:34:26.798 +0500 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "D:\CRM SERVERLESS/.fdk/store.sqlite"[0m
+2022-07-27 16:34:26.799 +0500 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"run","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-07-27 16:34:26.799 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658916530269}}[0m
+2022-07-27 16:34:26.799 +0500 [debug] ([34mupdater.js[0m) [31mlast check less than 24 hours ago, not looking for updates[0m
+2022-07-27 16:34:30.503 +0500 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.2","product":{"freshchat":{"location":{"conversation_user_info":{"url":"index.html","icon":"icon.svg"}},"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"},"onUserCreate":{"handler":"onUserCreateCallback"}},"functions":{"postData":{"timeout":10}}}},"whitelisted-domains":[],"engines":{"node":"14.20.0","fdk":"8.4.0"},"dependencies":{"request":"2.88.2"}}.[0m
+2022-07-27 16:34:30.504 +0500 [debug] ([34mmanifest.js[0m) [31mInferred db,backend as features.[0m
+2022-07-27 16:34:30.674 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658916530269}}[0m
+2022-07-27 16:34:31.220 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658916530269}}[0m
+2022-07-27 16:34:38.029 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658916530269}}[0m
+2022-07-27 16:34:46.320 +0500 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2022-07-27 16:34:46.321 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2022-07-27 16:34:46.321 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2022-07-27 16:34:46.322 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2022-07-27 16:34:46.322 +0500 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if D:\CRM SERVERLESS/config/ exists.[0m
+2022-07-27 16:34:46.323 +0500 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.html[0m
+2022-07-27 16:34:46.323 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2022-07-27 16:34:46.323 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2022-07-27 16:34:46.334 +0500 [debug] ([34mevent-util.js[0m) [31mFound ["postData","onAppInstallCallback","onExternalEventCallback","onAppUninstallCallback","onUserCreateCallback"] as exported functions.[0m
+2022-07-27 16:34:46.335 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2022-07-27 16:34:46.352 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator lint[0m
+2022-07-27 16:34:46.352 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2022-07-27 16:34:46.352 +0500 [debug] ([34mmanifest.js[0m) [31mrunning manifest validation with type run_validation[0m
+2022-07-27 16:34:46.352 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2022-07-27 16:34:46.352 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2022-07-27 16:34:46.352 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2022-07-27 16:34:46.353 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2022-07-27 16:34:46.353 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2022-07-27 16:34:46.377 +0500 [debug] ([34mevent-util.js[0m) [31mFound ["postData","onAppInstallCallback","onExternalEventCallback","onAppUninstallCallback","onUserCreateCallback"] as exported functions.[0m
+2022-07-27 16:34:46.377 +0500 [debug] ([34mmanifest.js[0m) [31mValidating function postData[0m
+2022-07-27 16:34:46.380 +0500 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./app,./config,./manifest.json[0m
+2022-07-27 16:34:46.386 +0500 [debug] ([34minstall-util.js[0m) [31mdependency installer called with {"request":"2.88.2"}[0m
+2022-07-27 16:34:46.447 +0500 [debug] ([34minstall-util.js[0m) [31mPreparing to install the following dependencies request@2.88.2[0m
+2022-07-27 16:34:46.449 +0500 [info] Installing dependencies...
+2022-07-27 16:34:59.377 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:34:59.378 +0500 [debug] ([34mcustom-objects.js[0m) [31mto force or not? false[0m
+2022-07-27 16:34:59.378 +0500 [debug] ([34mcustom-objects.js[0m) [31mbeginning to re-sync db[0m
+2022-07-27 16:35:00.156 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:35:00.158 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:35:00.158 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM SERVERLESS","product":{"freshchat":{"location":{"conversation_user_info":{"url":"agent/index.html","icon":"agent/icon.svg"}},"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"},"onUserCreate":{"handler":"onUserCreateCallback"}},"functions":{"postData":{"timeout":10}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"CRM SERVERLESS","placeholders":{"conversation_user_info":{"url":"http://localhost:10001/iframe/index.html","icon":"icon.svg"}}}]}[0m
+2022-07-27 16:35:01.157 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:35:02.591 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\bigint-pivot.js"[0m
+2022-07-27 16:35:02.607 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\entity-field-choice.js"[0m
+2022-07-27 16:35:02.644 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\entity-field.js"[0m
+2022-07-27 16:35:02.649 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\entity.js"[0m
+2022-07-27 16:35:02.651 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\record.js"[0m
+2022-07-27 16:35:02.652 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\string-pivot.js"[0m
+2022-07-27 16:35:02.696 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:35:02.697 +0500 [debug] ([34mcustom-objects.js[0m) [31mupdated local store with latest entity hash[0m
+2022-07-27 16:35:02.698 +0500 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshchat account URL to start testing    
+e.g. https://web.freshchat.com/a/230117337757345/inbox/3/0/conversation/233020826993979?dev=true    
+Quit the server with Control-C.
+2022-07-27 16:35:02.699 +0500 [info] 
+To simulate product, app setup, and external events, visit - http://localhost:10001/web/test
+2022-07-27 16:35:02.699 +0500 [info] Populating test data with events found in the app
+2022-07-27 16:35:02.700 +0500 [info] To test the installation page, visit - http://localhost:10001/custom_configs
+2022-07-27 16:35:03.727 +0500 [debug] ([34mdata-pipe.js[0m) [31mreceived call for route "smi" with action "invoke" and body {"action":"invoke","methodName":"postData","methodParams":{"url":"https://api.github.com/users/sample"},"data":{}}[0m
+2022-07-27 16:35:03.728 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:35:03.730 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:35:03.731 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:35:03.733 +0500 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting D:\CRM SERVERLESS\server\server.js[0m
+2022-07-27 16:35:04.336 +0500 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-07-27 16:35:04.575 +0500 [error] SyntaxError: Unexpected token R in JSON at position 2
+    at JSON.parse (<anonymous>)
+    at Request._callback (server.js:451:50)
+    at Request.self.callback (D:\CRM SERVERLESS\server\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:400:28)
+    at Request.<anonymous> (D:\CRM SERVERLESS\server\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:400:28)
+    at IncomingMessage.<anonymous> (D:\CRM SERVERLESS\server\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:519:28)
+    at IncomingMessage.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+2022-07-27 16:38:52.353 +0500 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-07-27 16:38:52.355 +0500 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Intern-7/.fdk/configs.json: Cannot find module 'C:\Users\Intern-7/.fdk/configs.json'
+Require stack:
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\configs.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\logger.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\index.js[0m
+2022-07-27 16:38:52.355 +0500 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2022-07-27 16:38:52.355 +0500 [debug] ([34mfile-util.js[0m) [31mError while requiring D:\CRM SERVERLESS/.fdk/configs.json: Cannot find module 'D:\CRM SERVERLESS/.fdk/configs.json'
+Require stack:
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\configs.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\logger.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\index.js[0m
+2022-07-27 16:38:52.355 +0500 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2022-07-27 16:38:52.356 +0500 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{}}"[0m
+2022-07-27 16:38:52.356 +0500 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-07-27 16:38:52.356 +0500 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v14.20.0 on win32[0m
+2022-07-27 16:38:52.356 +0500 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "D:\CRM SERVERLESS/.fdk/store.sqlite"[0m
+2022-07-27 16:38:52.356 +0500 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"run","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-07-27 16:38:52.356 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658916530269}}[0m
+2022-07-27 16:38:52.356 +0500 [debug] ([34mupdater.js[0m) [31mlast check less than 24 hours ago, not looking for updates[0m
+2022-07-27 16:38:52.624 +0500 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.2","product":{"freshchat":{"location":{"conversation_user_info":{"url":"index.html","icon":"icon.svg"}},"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"},"onUserCreate":{"handler":"onUserCreateCallback"}},"functions":{"postData":{"timeout":10}}}},"whitelisted-domains":[],"engines":{"node":"14.20.0","fdk":"8.4.0"},"dependencies":{"request":"2.88.2"}}.[0m
+2022-07-27 16:38:52.625 +0500 [debug] ([34mmanifest.js[0m) [31mInferred db,backend as features.[0m
+2022-07-27 16:38:52.628 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658916530269}}[0m
+2022-07-27 16:38:52.652 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658916530269}}[0m
+2022-07-27 16:38:53.991 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658916530269}}[0m
+2022-07-27 16:38:55.068 +0500 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2022-07-27 16:38:55.069 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2022-07-27 16:38:55.070 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2022-07-27 16:38:55.070 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2022-07-27 16:38:55.071 +0500 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if D:\CRM SERVERLESS/config/ exists.[0m
+2022-07-27 16:38:55.071 +0500 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.html[0m
+2022-07-27 16:38:55.071 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2022-07-27 16:38:55.071 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2022-07-27 16:38:55.082 +0500 [debug] ([34mevent-util.js[0m) [31mFound ["postData","onAppInstallCallback","onExternalEventCallback","onAppUninstallCallback","onUserCreateCallback"] as exported functions.[0m
+2022-07-27 16:38:55.083 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2022-07-27 16:38:55.099 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator lint[0m
+2022-07-27 16:38:55.099 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2022-07-27 16:38:55.099 +0500 [debug] ([34mmanifest.js[0m) [31mrunning manifest validation with type run_validation[0m
+2022-07-27 16:38:55.100 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2022-07-27 16:38:55.100 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2022-07-27 16:38:55.100 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2022-07-27 16:38:55.100 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2022-07-27 16:38:55.100 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2022-07-27 16:38:55.105 +0500 [debug] ([34mevent-util.js[0m) [31mFound ["postData","onAppInstallCallback","onExternalEventCallback","onAppUninstallCallback","onUserCreateCallback"] as exported functions.[0m
+2022-07-27 16:38:55.105 +0500 [debug] ([34mmanifest.js[0m) [31mValidating function postData[0m
+2022-07-27 16:38:55.108 +0500 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./app,./config,./manifest.json[0m
+2022-07-27 16:38:55.114 +0500 [debug] ([34minstall-util.js[0m) [31mdependency installer called with {"request":"2.88.2"}[0m
+2022-07-27 16:38:55.141 +0500 [debug] ([34minstall-util.js[0m) [31mPreparing to install the following dependencies request@2.88.2[0m
+2022-07-27 16:38:55.142 +0500 [info] Installing dependencies...
+2022-07-27 16:38:58.738 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:38:58.739 +0500 [debug] ([34mcustom-objects.js[0m) [31mto force or not? false[0m
+2022-07-27 16:38:58.739 +0500 [debug] ([34mcustom-objects.js[0m) [31mbeginning to re-sync db[0m
+2022-07-27 16:39:00.910 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\bigint-pivot.js"[0m
+2022-07-27 16:39:00.913 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\entity-field-choice.js"[0m
+2022-07-27 16:39:00.914 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\entity-field.js"[0m
+2022-07-27 16:39:00.915 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\entity.js"[0m
+2022-07-27 16:39:00.916 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\record.js"[0m
+2022-07-27 16:39:00.918 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\string-pivot.js"[0m
+2022-07-27 16:39:00.943 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:39:00.944 +0500 [debug] ([34mcustom-objects.js[0m) [31mupdated local store with latest entity hash[0m
+2022-07-27 16:39:00.945 +0500 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshchat account URL to start testing    
+e.g. https://web.freshchat.com/a/230117337757345/inbox/3/0/conversation/233020826993979?dev=true    
+Quit the server with Control-C.
+2022-07-27 16:39:00.946 +0500 [info] 
+To simulate product, app setup, and external events, visit - http://localhost:10001/web/test
+2022-07-27 16:39:00.946 +0500 [info] Populating test data with events found in the app
+2022-07-27 16:39:00.947 +0500 [info] To test the installation page, visit - http://localhost:10001/custom_configs
+2022-07-27 16:39:07.069 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:39:07.070 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:39:07.071 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM SERVERLESS","product":{"freshchat":{"location":{"conversation_user_info":{"url":"agent/index.html","icon":"agent/icon.svg"}},"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"},"onUserCreate":{"handler":"onUserCreateCallback"}},"functions":{"postData":{"timeout":10}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"CRM SERVERLESS","placeholders":{"conversation_user_info":{"url":"http://localhost:10001/iframe/index.html","icon":"icon.svg"}}}]}[0m
+2022-07-27 16:39:07.448 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:39:12.544 +0500 [debug] ([34mdata-pipe.js[0m) [31mreceived call for route "smi" with action "invoke" and body {"action":"invoke","methodName":"postData","methodParams":{"url":"https://api.github.com/users/sample"},"data":{}}[0m
+2022-07-27 16:39:12.545 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:39:12.548 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:39:12.548 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:39:12.549 +0500 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting D:\CRM SERVERLESS\server\server.js[0m
+2022-07-27 16:39:13.143 +0500 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-07-27 16:40:15.402 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:40:15.403 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:40:15.403 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM SERVERLESS","product":{"freshchat":{"location":{"conversation_user_info":{"url":"agent/index.html","icon":"agent/icon.svg"}},"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"},"onUserCreate":{"handler":"onUserCreateCallback"}},"functions":{"postData":{"timeout":10}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"CRM SERVERLESS","placeholders":{"conversation_user_info":{"url":"http://localhost:10001/iframe/index.html","icon":"icon.svg"}}}]}[0m
+2022-07-27 16:40:16.332 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:40:21.817 +0500 [debug] ([34mdata-pipe.js[0m) [31mreceived call for route "smi" with action "invoke" and body {"action":"invoke","methodName":"postData","methodParams":{"url":"https://api.github.com/users/sample"},"data":{}}[0m
+2022-07-27 16:40:21.818 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:40:21.818 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:40:21.819 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:40:21.819 +0500 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting D:\CRM SERVERLESS\server\server.js[0m
+2022-07-27 16:40:22.371 +0500 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-07-27 16:42:08.824 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:42:08.825 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:42:08.826 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM SERVERLESS","product":{"freshchat":{"location":{"conversation_user_info":{"url":"agent/index.html","icon":"agent/icon.svg"}},"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"},"onUserCreate":{"handler":"onUserCreateCallback"}},"functions":{"postData":{"timeout":10}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"CRM SERVERLESS","placeholders":{"conversation_user_info":{"url":"http://localhost:10001/iframe/index.html","icon":"icon.svg"}}}]}[0m
+2022-07-27 16:42:09.697 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:42:17.911 +0500 [debug] ([34mdata-pipe.js[0m) [31mreceived call for route "smi" with action "invoke" and body {"action":"invoke","methodName":"postData","methodParams":{"url":"https://api.github.com/users/sample"},"data":{}}[0m
+2022-07-27 16:42:17.912 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:42:17.912 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:42:17.913 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:42:17.913 +0500 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting D:\CRM SERVERLESS\server\server.js[0m
+2022-07-27 16:42:18.473 +0500 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-07-27 16:43:23.525 +0500 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-07-27 16:43:23.527 +0500 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Intern-7/.fdk/configs.json: Cannot find module 'C:\Users\Intern-7/.fdk/configs.json'
+Require stack:
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\configs.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\logger.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\index.js[0m
+2022-07-27 16:43:23.527 +0500 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2022-07-27 16:43:23.528 +0500 [debug] ([34mfile-util.js[0m) [31mError while requiring D:\CRM SERVERLESS/.fdk/configs.json: Cannot find module 'D:\CRM SERVERLESS/.fdk/configs.json'
+Require stack:
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\configs.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\logger.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\index.js[0m
+2022-07-27 16:43:23.528 +0500 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2022-07-27 16:43:23.528 +0500 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{}}"[0m
+2022-07-27 16:43:23.528 +0500 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-07-27 16:43:23.528 +0500 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v14.20.0 on win32[0m
+2022-07-27 16:43:23.528 +0500 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "D:\CRM SERVERLESS/.fdk/store.sqlite"[0m
+2022-07-27 16:43:23.529 +0500 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"run","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-07-27 16:43:23.529 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658916530269}}[0m
+2022-07-27 16:43:23.529 +0500 [debug] ([34mupdater.js[0m) [31mlast check less than 24 hours ago, not looking for updates[0m
+2022-07-27 16:43:23.798 +0500 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.2","product":{"freshchat":{"location":{"conversation_user_info":{"url":"index.html","icon":"icon.svg"}},"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"},"onUserCreate":{"handler":"onUserCreateCallback"}},"functions":{"postData":{"timeout":10}}}},"whitelisted-domains":[],"engines":{"node":"14.20.0","fdk":"8.4.0"},"dependencies":{"request":"2.88.2"}}.[0m
+2022-07-27 16:43:23.799 +0500 [debug] ([34mmanifest.js[0m) [31mInferred db,backend as features.[0m
+2022-07-27 16:43:23.801 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658916530269}}[0m
+2022-07-27 16:43:23.825 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658916530269}}[0m
+2022-07-27 16:43:25.158 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658916530269}}[0m
+2022-07-27 16:43:26.225 +0500 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2022-07-27 16:43:26.226 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2022-07-27 16:43:26.226 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2022-07-27 16:43:26.227 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2022-07-27 16:43:26.228 +0500 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if D:\CRM SERVERLESS/config/ exists.[0m
+2022-07-27 16:43:26.228 +0500 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.html[0m
+2022-07-27 16:43:26.228 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2022-07-27 16:43:26.228 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2022-07-27 16:43:26.240 +0500 [debug] ([34mevent-util.js[0m) [31mFound ["postData","onAppInstallCallback","onExternalEventCallback","onAppUninstallCallback","onUserCreateCallback"] as exported functions.[0m
+2022-07-27 16:43:26.241 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2022-07-27 16:43:26.258 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator lint[0m
+2022-07-27 16:43:26.258 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2022-07-27 16:43:26.258 +0500 [debug] ([34mmanifest.js[0m) [31mrunning manifest validation with type run_validation[0m
+2022-07-27 16:43:26.258 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2022-07-27 16:43:26.258 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2022-07-27 16:43:26.259 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2022-07-27 16:43:26.259 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2022-07-27 16:43:26.259 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2022-07-27 16:43:26.264 +0500 [debug] ([34mevent-util.js[0m) [31mFound ["postData","onAppInstallCallback","onExternalEventCallback","onAppUninstallCallback","onUserCreateCallback"] as exported functions.[0m
+2022-07-27 16:43:26.264 +0500 [debug] ([34mmanifest.js[0m) [31mValidating function postData[0m
+2022-07-27 16:43:26.268 +0500 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./app,./config,./manifest.json[0m
+2022-07-27 16:43:26.274 +0500 [debug] ([34minstall-util.js[0m) [31mdependency installer called with {"request":"2.88.2"}[0m
+2022-07-27 16:43:26.303 +0500 [debug] ([34minstall-util.js[0m) [31mPreparing to install the following dependencies request@2.88.2[0m
+2022-07-27 16:43:26.304 +0500 [info] Installing dependencies...
+2022-07-27 16:43:30.624 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:43:30.625 +0500 [debug] ([34mcustom-objects.js[0m) [31mto force or not? false[0m
+2022-07-27 16:43:30.625 +0500 [debug] ([34mcustom-objects.js[0m) [31mbeginning to re-sync db[0m
+2022-07-27 16:43:32.720 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\bigint-pivot.js"[0m
+2022-07-27 16:43:32.725 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\entity-field-choice.js"[0m
+2022-07-27 16:43:32.727 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\entity-field.js"[0m
+2022-07-27 16:43:32.729 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\entity.js"[0m
+2022-07-27 16:43:32.732 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\record.js"[0m
+2022-07-27 16:43:32.734 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\string-pivot.js"[0m
+2022-07-27 16:43:32.762 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:43:32.762 +0500 [debug] ([34mcustom-objects.js[0m) [31mupdated local store with latest entity hash[0m
+2022-07-27 16:43:32.763 +0500 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshchat account URL to start testing    
+e.g. https://web.freshchat.com/a/230117337757345/inbox/3/0/conversation/233020826993979?dev=true    
+Quit the server with Control-C.
+2022-07-27 16:43:32.764 +0500 [info] 
+To simulate product, app setup, and external events, visit - http://localhost:10001/web/test
+2022-07-27 16:43:32.764 +0500 [info] Populating test data with events found in the app
+2022-07-27 16:43:32.765 +0500 [info] To test the installation page, visit - http://localhost:10001/custom_configs
+2022-07-27 16:44:54.537 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:44:56.841 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:46:06.553 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:46:15.487 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:46:23.557 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:46:25.302 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:46:27.284 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:46:30.231 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:46:32.633 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:46:34.600 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:46:48.263 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:47:01.273 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:47:03.013 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:47:08.671 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:47:25.114 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:47:25.116 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:47:25.116 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM SERVERLESS","product":{"freshchat":{"location":{"conversation_user_info":{"url":"agent/index.html","icon":"agent/icon.svg"}},"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"},"onUserCreate":{"handler":"onUserCreateCallback"}},"functions":{"postData":{"timeout":10}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"CRM SERVERLESS","placeholders":{"conversation_user_info":{"url":"http://localhost:10001/iframe/index.html","icon":"icon.svg"}}}]}[0m
+2022-07-27 16:47:25.952 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:47:34.874 +0500 [debug] ([34mdata-pipe.js[0m) [31mreceived call for route "smi" with action "invoke" and body {"action":"invoke","methodName":"postData","methodParams":{"url":"https://api.github.com/users/sample"},"data":{}}[0m
+2022-07-27 16:47:34.875 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:47:34.878 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:47:34.879 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:47:34.880 +0500 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting D:\CRM SERVERLESS\server\server.js[0m
+2022-07-27 16:47:35.483 +0500 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-07-27 16:47:35.639 +0500 [error] SyntaxError: Unexpected token R in JSON at position 2
+    at JSON.parse (<anonymous>)
+    at Request._callback (server.js:466:50)
+    at Request.self.callback (D:\CRM SERVERLESS\server\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:400:28)
+    at Request.<anonymous> (D:\CRM SERVERLESS\server\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:400:28)
+    at IncomingMessage.<anonymous> (D:\CRM SERVERLESS\server\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:519:28)
+    at IncomingMessage.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+2022-07-27 16:49:10.265 +0500 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-07-27 16:49:10.267 +0500 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Intern-7/.fdk/configs.json: Cannot find module 'C:\Users\Intern-7/.fdk/configs.json'
+Require stack:
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\configs.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\logger.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\index.js[0m
+2022-07-27 16:49:10.267 +0500 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2022-07-27 16:49:10.267 +0500 [debug] ([34mfile-util.js[0m) [31mError while requiring D:\CRM SERVERLESS/.fdk/configs.json: Cannot find module 'D:\CRM SERVERLESS/.fdk/configs.json'
+Require stack:
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\configs.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\logger.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\index.js[0m
+2022-07-27 16:49:10.267 +0500 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2022-07-27 16:49:10.267 +0500 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{}}"[0m
+2022-07-27 16:49:10.267 +0500 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-07-27 16:49:10.268 +0500 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v14.20.0 on win32[0m
+2022-07-27 16:49:10.268 +0500 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "D:\CRM SERVERLESS/.fdk/store.sqlite"[0m
+2022-07-27 16:49:10.268 +0500 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"run","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-07-27 16:49:10.268 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658916530269}}[0m
+2022-07-27 16:49:10.268 +0500 [debug] ([34mupdater.js[0m) [31mlast check less than 24 hours ago, not looking for updates[0m
+2022-07-27 16:49:10.535 +0500 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.2","product":{"freshchat":{"location":{"conversation_user_info":{"url":"index.html","icon":"icon.svg"}},"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"},"onUserCreate":{"handler":"onUserCreateCallback"}},"functions":{"postData":{"timeout":10}}}},"whitelisted-domains":[],"engines":{"node":"14.20.0","fdk":"8.4.0"},"dependencies":{"request":"2.88.2"}}.[0m
+2022-07-27 16:49:10.536 +0500 [debug] ([34mmanifest.js[0m) [31mInferred db,backend as features.[0m
+2022-07-27 16:49:10.538 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658916530269}}[0m
+2022-07-27 16:49:10.562 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658916530269}}[0m
+2022-07-27 16:49:11.921 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658916530269}}[0m
+2022-07-27 16:49:12.944 +0500 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2022-07-27 16:49:12.944 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2022-07-27 16:49:12.945 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2022-07-27 16:49:12.945 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2022-07-27 16:49:12.946 +0500 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if D:\CRM SERVERLESS/config/ exists.[0m
+2022-07-27 16:49:12.946 +0500 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.html[0m
+2022-07-27 16:49:12.946 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2022-07-27 16:49:12.946 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2022-07-27 16:49:12.957 +0500 [debug] ([34mevent-util.js[0m) [31mFound ["postData","onAppInstallCallback","onExternalEventCallback","onAppUninstallCallback","onUserCreateCallback"] as exported functions.[0m
+2022-07-27 16:49:12.958 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2022-07-27 16:49:12.973 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator lint[0m
+2022-07-27 16:49:12.973 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2022-07-27 16:49:12.973 +0500 [debug] ([34mmanifest.js[0m) [31mrunning manifest validation with type run_validation[0m
+2022-07-27 16:49:12.973 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2022-07-27 16:49:12.974 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2022-07-27 16:49:12.974 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2022-07-27 16:49:12.974 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2022-07-27 16:49:12.974 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2022-07-27 16:49:12.979 +0500 [debug] ([34mevent-util.js[0m) [31mFound ["postData","onAppInstallCallback","onExternalEventCallback","onAppUninstallCallback","onUserCreateCallback"] as exported functions.[0m
+2022-07-27 16:49:12.979 +0500 [debug] ([34mmanifest.js[0m) [31mValidating function postData[0m
+2022-07-27 16:49:12.982 +0500 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./app,./config,./manifest.json[0m
+2022-07-27 16:49:12.987 +0500 [debug] ([34minstall-util.js[0m) [31mdependency installer called with {"request":"2.88.2"}[0m
+2022-07-27 16:49:13.016 +0500 [debug] ([34minstall-util.js[0m) [31mPreparing to install the following dependencies request@2.88.2[0m
+2022-07-27 16:49:13.017 +0500 [info] Installing dependencies...
+2022-07-27 16:49:17.587 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:49:17.587 +0500 [debug] ([34mcustom-objects.js[0m) [31mto force or not? false[0m
+2022-07-27 16:49:17.588 +0500 [debug] ([34mcustom-objects.js[0m) [31mbeginning to re-sync db[0m
+2022-07-27 16:49:19.643 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\bigint-pivot.js"[0m
+2022-07-27 16:49:19.648 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\entity-field-choice.js"[0m
+2022-07-27 16:49:19.650 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\entity-field.js"[0m
+2022-07-27 16:49:19.652 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\entity.js"[0m
+2022-07-27 16:49:19.655 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\record.js"[0m
+2022-07-27 16:49:19.657 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\string-pivot.js"[0m
+2022-07-27 16:49:19.679 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:49:19.679 +0500 [debug] ([34mcustom-objects.js[0m) [31mupdated local store with latest entity hash[0m
+2022-07-27 16:49:19.680 +0500 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshchat account URL to start testing    
+e.g. https://web.freshchat.com/a/230117337757345/inbox/3/0/conversation/233020826993979?dev=true    
+Quit the server with Control-C.
+2022-07-27 16:49:19.681 +0500 [info] 
+To simulate product, app setup, and external events, visit - http://localhost:10001/web/test
+2022-07-27 16:49:19.681 +0500 [info] Populating test data with events found in the app
+2022-07-27 16:49:19.682 +0500 [info] To test the installation page, visit - http://localhost:10001/custom_configs
+2022-07-27 16:50:08.095 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:50:08.107 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:50:17.896 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:50:17.898 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:50:17.898 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM SERVERLESS","product":{"freshchat":{"location":{"conversation_user_info":{"url":"agent/index.html","icon":"agent/icon.svg"}},"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"},"onUserCreate":{"handler":"onUserCreateCallback"}},"functions":{"postData":{"timeout":10}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"CRM SERVERLESS","placeholders":{"conversation_user_info":{"url":"http://localhost:10001/iframe/index.html","icon":"icon.svg"}}}]}[0m
+2022-07-27 16:50:19.010 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:51:04.240 +0500 [debug] ([34mdata-pipe.js[0m) [31mreceived call for route "smi" with action "invoke" and body {"action":"invoke","methodName":"postData","methodParams":{"url":"https://api.github.com/users/sample"},"data":{}}[0m
+2022-07-27 16:51:04.241 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:51:04.244 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:51:04.245 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:51:04.246 +0500 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting D:\CRM SERVERLESS\server\server.js[0m
+2022-07-27 16:51:04.856 +0500 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-07-27 16:51:05.003 +0500 [error] SyntaxError: Unexpected token R in JSON at position 2
+    at JSON.parse (<anonymous>)
+    at Request._callback (server.js:466:50)
+    at Request.self.callback (D:\CRM SERVERLESS\server\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:400:28)
+    at Request.<anonymous> (D:\CRM SERVERLESS\server\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:400:28)
+    at IncomingMessage.<anonymous> (D:\CRM SERVERLESS\server\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:519:28)
+    at IncomingMessage.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+2022-07-27 16:51:32.802 +0500 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-07-27 16:51:32.804 +0500 [debug] ([34mfile-util.js[0m) [31mError while requiring C:\Users\Intern-7/.fdk/configs.json: Cannot find module 'C:\Users\Intern-7/.fdk/configs.json'
+Require stack:
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\configs.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\logger.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\index.js[0m
+2022-07-27 16:51:32.804 +0500 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{}"[0m
+2022-07-27 16:51:32.804 +0500 [debug] ([34mfile-util.js[0m) [31mError while requiring D:\CRM SERVERLESS/.fdk/configs.json: Cannot find module 'D:\CRM SERVERLESS/.fdk/configs.json'
+Require stack:
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\utils\file-util.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\configs.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\logger.js
+- C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\index.js[0m
+2022-07-27 16:51:32.804 +0500 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2022-07-27 16:51:32.804 +0500 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{}}"[0m
+2022-07-27 16:51:32.805 +0500 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://ws.freshdev.io/cli/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020}}"[0m
+2022-07-27 16:51:32.805 +0500 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v14.20.0 on win32[0m
+2022-07-27 16:51:32.805 +0500 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "D:\CRM SERVERLESS/.fdk/store.sqlite"[0m
+2022-07-27 16:51:32.805 +0500 [debug] ([34mindex.js[0m) [31mRunning with args {"cmd":"run","gopts":{},"opts":{},"goptArg":{},"optArg":{},"args":[]}[0m
+2022-07-27 16:51:32.805 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658916530269}}[0m
+2022-07-27 16:51:32.805 +0500 [debug] ([34mupdater.js[0m) [31mlast check less than 24 hours ago, not looking for updates[0m
+2022-07-27 16:51:33.082 +0500 [debug] ([34mmanifest.js[0m) [31mReloading manifest with {"platform-version":"2.2","product":{"freshchat":{"location":{"conversation_user_info":{"url":"index.html","icon":"icon.svg"}},"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"},"onUserCreate":{"handler":"onUserCreateCallback"}},"functions":{"postData":{"timeout":10}}}},"whitelisted-domains":[],"engines":{"node":"14.20.0","fdk":"8.4.0"},"dependencies":{"request":"2.88.2"}}.[0m
+2022-07-27 16:51:33.083 +0500 [debug] ([34mmanifest.js[0m) [31mInferred db,backend as features.[0m
+2022-07-27 16:51:33.085 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658916530269}}[0m
+2022-07-27 16:51:33.110 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658916530269}}[0m
+2022-07-27 16:51:34.419 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"version_details":{"cli":{"deprecated":{"version":"<8","message":"This FDK version will be deprecated by August 31, 2022. There will be no further feature updates to this version. For a seamless app building experience, ensure to move to the latest FDK version. For more information, see https://community.developers.freshworks.com/t/5433."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"8.4.0","command":"npm install https://dl.freshdev.io/cli/fdk.tgz -g","message":""}},"addon":{"version":"1.10.2","url":"https://dl.freshdev.io/cli-addon/addon-1.10.2.zip"}},"last_updated":{"time_stamp":1658916530269}}[0m
+2022-07-27 16:51:35.454 +0500 [debug] ([34mvalidate.js[0m) [31masked to skip the following validations, [0m
+2022-07-27 16:51:35.455 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator actions[0m
+2022-07-27 16:51:35.456 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator app-dir[0m
+2022-07-27 16:51:35.457 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator config-dir[0m
+2022-07-27 16:51:35.457 +0500 [debug] ([34mconfig-dir.js[0m) [31mChecking to see if D:\CRM SERVERLESS/config/ exists.[0m
+2022-07-27 16:51:35.457 +0500 [debug] ([34mconfig-dir.js[0m) [31mFetched the following config files iparams.html[0m
+2022-07-27 16:51:35.457 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator custom-objects[0m
+2022-07-27 16:51:35.457 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator event[0m
+2022-07-27 16:51:35.470 +0500 [debug] ([34mevent-util.js[0m) [31mFound ["postData","onAppInstallCallback","onExternalEventCallback","onAppUninstallCallback","onUserCreateCallback"] as exported functions.[0m
+2022-07-27 16:51:35.470 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator iparam[0m
+2022-07-27 16:51:35.487 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator lint[0m
+2022-07-27 16:51:35.487 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator manifest[0m
+2022-07-27 16:51:35.487 +0500 [debug] ([34mmanifest.js[0m) [31mrunning manifest validation with type run_validation[0m
+2022-07-27 16:51:35.487 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator manifest-dependency[0m
+2022-07-27 16:51:35.488 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator oauth[0m
+2022-07-27 16:51:35.488 +0500 [debug] ([34mvalidate.js[0m) [31mskipping validator pkgsize[0m
+2022-07-27 16:51:35.488 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator schema[0m
+2022-07-27 16:51:35.488 +0500 [debug] ([34mvalidate.js[0m) [31mrunning validator version-check[0m
+2022-07-27 16:51:35.495 +0500 [debug] ([34mevent-util.js[0m) [31mFound ["postData","onAppInstallCallback","onExternalEventCallback","onAppUninstallCallback","onUserCreateCallback"] as exported functions.[0m
+2022-07-27 16:51:35.495 +0500 [debug] ([34mmanifest.js[0m) [31mValidating function postData[0m
+2022-07-27 16:51:35.498 +0500 [debug] ([34mwatcher.js[0m) [31mPreparing to watch the following files ./app,./config,./manifest.json[0m
+2022-07-27 16:51:35.505 +0500 [debug] ([34minstall-util.js[0m) [31mdependency installer called with {"request":"2.88.2"}[0m
+2022-07-27 16:51:35.545 +0500 [debug] ([34minstall-util.js[0m) [31mPreparing to install the following dependencies request@2.88.2[0m
+2022-07-27 16:51:35.546 +0500 [info] Installing dependencies...
+2022-07-27 16:51:38.973 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:51:38.973 +0500 [debug] ([34mcustom-objects.js[0m) [31mto force or not? false[0m
+2022-07-27 16:51:38.974 +0500 [debug] ([34mcustom-objects.js[0m) [31mbeginning to re-sync db[0m
+2022-07-27 16:51:41.023 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\bigint-pivot.js"[0m
+2022-07-27 16:51:41.025 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\entity-field-choice.js"[0m
+2022-07-27 16:51:41.026 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\entity-field.js"[0m
+2022-07-27 16:51:41.027 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\entity.js"[0m
+2022-07-27 16:51:41.028 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\record.js"[0m
+2022-07-27 16:51:41.030 +0500 [debug] ([34mindex.js[0m) [31mloading model at "C:\Users\Intern-7\AppData\Roaming\nvm\v14.20.0\node_modules\fdk\lib\models\string-pivot.js"[0m
+2022-07-27 16:51:41.057 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:51:41.058 +0500 [debug] ([34mcustom-objects.js[0m) [31mupdated local store with latest entity hash[0m
+2022-07-27 16:51:41.060 +0500 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshchat account URL to start testing    
+e.g. https://web.freshchat.com/a/230117337757345/inbox/3/0/conversation/233020826993979?dev=true    
+Quit the server with Control-C.
+2022-07-27 16:51:41.063 +0500 [info] 
+To simulate product, app setup, and external events, visit - http://localhost:10001/web/test
+2022-07-27 16:51:41.064 +0500 [info] Populating test data with events found in the app
+2022-07-27 16:51:41.066 +0500 [info] To test the installation page, visit - http://localhost:10001/custom_configs
+2022-07-27 16:52:23.510 +0500 [debug] ([34mdata-pipe.js[0m) [31mreceived call for route "smi" with action "invoke" and body {"action":"invoke","methodName":"postData","methodParams":{"url":"https://api.github.com/users/sample"},"data":{}}[0m
+2022-07-27 16:52:23.511 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:52:23.514 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:52:23.515 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:52:23.516 +0500 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting D:\CRM SERVERLESS\server\server.js[0m
+2022-07-27 16:52:24.127 +0500 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-07-27 16:52:24.637 +0500 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-07-27 16:53:07.867 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:53:07.877 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:53:11.487 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:53:11.491 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:53:17.027 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:53:17.038 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:53:21.646 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:53:21.654 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:53:32.413 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:53:32.422 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:53:37.764 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:53:37.773 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:53:47.361 +0500 [debug] ([34mdata-pipe.js[0m) [31mreceived call for route "smi" with action "invoke" and body {"action":"invoke","methodName":"postData","methodParams":{"url":"https://www.google.com"},"data":{}}[0m
+2022-07-27 16:53:47.362 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:53:47.363 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:53:47.363 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:53:47.364 +0500 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting D:\CRM SERVERLESS\server\server.js[0m
+2022-07-27 16:53:47.931 +0500 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-07-27 16:53:48.469 +0500 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-07-27 16:54:09.218 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:54:09.226 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:54:12.230 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:54:12.237 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:54:17.013 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:54:17.020 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:54:20.880 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:54:20.888 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:54:57.457 +0500 [debug] ([34mdata-pipe.js[0m) [31mreceived call for route "smi" with action "invoke" and body {"action":"invoke","methodName":"postData","methodParams":{"url":"https://www.google.com"},"data":{}}[0m
+2022-07-27 16:54:57.458 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:54:57.459 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:54:57.459 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:54:57.460 +0500 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting D:\CRM SERVERLESS\server\server.js[0m
+2022-07-27 16:54:58.021 +0500 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-07-27 16:54:59.542 +0500 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-07-27 16:56:06.714 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:56:06.731 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:57:08.751 +0500 [debug] ([34mwatcher.js[0m) [31mBroadcasted "{"file":"app\\index.html"}" to all listeners.[0m
+2022-07-27 16:57:08.759 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:57:20.060 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:57:20.061 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:57:20.062 +0500 [debug] ([34miframe.js[0m) [31mResponding to product with {"configs":{},"displayName":"CRM SERVERLESS","product":{"freshchat":{"location":{"conversation_user_info":{"url":"agent/index.html","icon":"agent/icon.svg"}},"events":{"onAppInstall":{"handler":"onAppInstallCallback"},"onAppUninstall":{"handler":"onAppUninstallCallback"},"onExternalEvent":{"handler":"onExternalEventCallback"},"onUserCreate":{"handler":"onUserCreateCallback"}},"functions":{"postData":{"timeout":10}}}},"features":["db","backend"],"actions":false,"omni":false,"products":["freshchat"],"platform":"2.2","v2":[{"id":1,"version_id":1,"configs":{},"displayName":"CRM SERVERLESS","placeholders":{"conversation_user_info":{"url":"http://localhost:10001/iframe/index.html","icon":"icon.svg"}}}]}[0m
+2022-07-27 16:57:20.924 +0500 [debug] ([34miframe.js[0m) [31mResponding with contents of /index.html[0m
+2022-07-27 16:57:26.846 +0500 [debug] ([34mdata-pipe.js[0m) [31mreceived call for route "smi" with action "invoke" and body {"action":"invoke","methodName":"postData","methodParams":{"url":"https://api.publicapis.org/entries"},"data":{}}[0m
+2022-07-27 16:57:26.847 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:57:26.848 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:57:26.849 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:57:26.849 +0500 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting D:\CRM SERVERLESS\server\server.js[0m
+2022-07-27 16:57:27.399 +0500 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-07-27 16:57:31.452 +0500 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-07-27 16:59:00.940 +0500 [debug] ([34mdata-pipe.js[0m) [31mreceived call for route "smi" with action "invoke" and body {"action":"invoke","methodName":"postData","methodParams":{"url":"https://api.publicapis.org/entries"},"data":{}}[0m
+2022-07-27 16:59:00.941 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:59:00.941 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:59:00.942 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:59:00.943 +0500 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting D:\CRM SERVERLESS\server\server.js[0m
+2022-07-27 16:59:01.505 +0500 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-07-27 16:59:08.576 +0500 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-07-27 16:59:58.246 +0500 [debug] ([34mdata-pipe.js[0m) [31mreceived call for route "smi" with action "invoke" and body {"action":"invoke","methodName":"postData","methodParams":{"url":"https://api.publicapis.org/entries"},"data":{}}[0m
+2022-07-27 16:59:58.248 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:59:58.249 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:59:58.250 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 16:59:58.250 +0500 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting D:\CRM SERVERLESS\server\server.js[0m
+2022-07-27 16:59:58.795 +0500 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-07-27 17:00:01.170 +0500 [debug] ([34mdata-pipe.js[0m) [31mreceived call for route "smi" with action "invoke" and body {"action":"invoke","methodName":"postData","methodParams":{"url":"https://api.publicapis.org/entries"},"data":{}}[0m
+2022-07-27 17:00:01.171 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 17:00:01.172 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 17:00:01.172 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 17:00:01.173 +0500 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting D:\CRM SERVERLESS\server\server.js[0m
+2022-07-27 17:00:06.299 +0500 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-07-27 17:00:06.308 +0500 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-07-27 17:00:10.273 +0500 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-07-27 17:01:55.069 +0500 [debug] ([34mdata-pipe.js[0m) [31mreceived call for route "smi" with action "invoke" and body {"action":"invoke","methodName":"postData","methodParams":{"url":"https://api.publicapis.org/entries"},"data":{}}[0m
+2022-07-27 17:01:55.070 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 17:01:55.070 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 17:01:55.071 +0500 [debug] ([34mdata-util.js[0m) [31mRead {"crm_se_101_101_freshchat":{"crm_se_101_101_custom_iparams":{"__meta":{"secure":[null]}}}}[0m
+2022-07-27 17:01:55.071 +0500 [debug] ([34mcoverage-util.js[0m) [31mInstrumenting D:\CRM SERVERLESS\server\server.js[0m
+2022-07-27 17:01:55.611 +0500 [debug] ([34mcoverage-util.js[0m) [31mWriting coverage.[0m
+2022-07-27 17:01:58.476 +0500 [error] SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at Request._callback (server.js:464:47)
+    at Request.self.callback (D:\CRM SERVERLESS\server\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:400:28)
+    at Request.<anonymous> (D:\CRM SERVERLESS\server\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:400:28)
+    at IncomingMessage.<anonymous> (D:\CRM SERVERLESS\server\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:519:28)
+    at IncomingMessage.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
